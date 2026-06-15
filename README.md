@@ -5,13 +5,19 @@ This repository contains the code and datasets used in the experimental part of 
 
 The work compares machine learning models and ensemble strategies on two public telecom churn datasets. The experiments focus on recall-oriented churn detection, class imbalance, model comparison, and explainability with SHAP.
 
-Repository contents
--------------------
+Repository structure
+--------------------
 
-- `telcotesesemo6GPcomAP.ipynb`: experiment notebook for the IBM Telco Customer Churn dataset.
-- `c2cclsemo6GPcomAP.ipynb`: experiment notebook for the Cell2Cell dataset.
-- `Cópia de WA_Fn-UseC_-Telco-Customer-Churn.csv`: IBM Telco Customer Churn dataset used by the Telco notebook.
-- `cell2celltrain.csv`: Cell2Cell dataset used by the C2C notebook.
+- `code/`: Jupyter notebooks used to run the final experiments.
+- `datasets/`: CSV files used by the notebooks.
+
+Files
+-----
+
+- `code/telcotesesemo6GPcomAP.ipynb`: experiment notebook for the IBM Telco Customer Churn dataset.
+- `code/c2cclsemo6GPcomAP.ipynb`: experiment notebook for the Cell2Cell dataset.
+- `datasets/Cópia de WA_Fn-UseC_-Telco-Customer-Churn.csv`: IBM Telco Customer Churn dataset used by the Telco notebook.
+- `datasets/cell2celltrain.csv`: Cell2Cell dataset used by the C2C notebook.
 
 Methods
 -------
@@ -44,9 +50,9 @@ SHAP is used to interpret the results in two ways:
 How to run
 ----------
 
-Open the notebooks with Jupyter Notebook, JupyterLab, VS Code, or a compatible notebook environment.
+Open the notebooks in the `code/` folder with Jupyter Notebook, JupyterLab, VS Code, or a compatible notebook environment.
 
-The CSV files should remain in the same folder as the notebooks unless the file paths inside the notebooks are updated.
+The notebooks use relative paths to load the CSV files from the `datasets/` folder. Keep the repository structure unchanged unless the dataset paths inside the notebooks are updated.
 
 Main Python packages used by the notebooks include:
 
