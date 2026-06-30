@@ -14,8 +14,8 @@ Repository structure
 Files
 -----
 
-- `code/telcotesesemo6GPcomAP.ipynb`: experiment notebook for the IBM Telco Customer Churn dataset.
-- `code/c2cclsemo6GPcomAP.ipynb`: experiment notebook for the Cell2Cell dataset.
+- `code/telco.ipynb`: experiment notebook for the IBM Telco Customer Churn dataset.
+- `code/c2c.ipynb`: experiment notebook for the Cell2Cell dataset.
 - `datasets/Cópia de WA_Fn-UseC_-Telco-Customer-Churn.csv`: IBM Telco Customer Churn dataset used by the Telco notebook.
 - `datasets/cell2celltrain.csv`: Cell2Cell dataset used by the C2C notebook.
 
